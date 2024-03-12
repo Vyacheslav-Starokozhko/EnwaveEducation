@@ -1,10 +1,15 @@
-import React from 'react';
+import './footer.scss'
 import Menu from "../../UI/Menu/Menu.tsx";
+import Logo from "../Logo/Logo";
+import logo from "../../assets/react-white.svg"
 
 const Footer = () => {
     return (
         <footer>
-            <Menu/>
+            <div className="container footer-container">
+                <Logo logo={logo} />
+                <Menu classes="footer-menu" />
+            </div>
         </footer>
     );
 };

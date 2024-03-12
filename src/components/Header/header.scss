@@ -1,0 +1,19 @@
+header{
+  padding: 32px;
+  //background-color: var(--dark-blue);
+  .header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-menu{
+    li{
+      a{
+        color: var(--white);
+        &:hover{
+          color: var(--light-blue);
+        }
+      }
+    }
+  }
+}
