@@ -1,0 +1,53 @@
+:root {
+  /* Primary Colors */
+  --color-dark-navy: #0A1F44;
+  --color-midnight-blue: #0F3057;
+  --color-charcoal: #1C2541;
+
+  /* Accent Colors */
+  --color-steel-blue: #3A506B;
+  --color-sky-blue: #5BC0BE;
+  --color-cyan: #6FFFE9;
+
+  /* Highlight Colors */
+  --color-ice-blue: #B3EFFF;
+  --color-teal: #57C4E5;
+  --color-neon-blue: #29A0B1;
+
+  /* Text and Background Colors */
+  --color-almost-black: #0D0D0D;
+  --color-off-white: #E8F1F2;
+  --color-light-gray: #B8C1C6;
+
+  /* Gradients */
+  --gradient-1: linear-gradient(135deg, #0A1F44, #0F3057);
+  --gradient-2: linear-gradient(135deg, #0A1F44, #3A506B);
+  --gradient-3: linear-gradient(135deg, #3A506B, #5BC0BE);
+  --gradient-4: linear-gradient(135deg, #1C2541, #57C4E5);
+  --gradient-5: linear-gradient(135deg, #0D0D0D, #6FFFE9);
+
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+
+}
+
+
+body{
+  transition: 0.5s;
+  font-family: var(--font-poppins);
+  font-size: 16px;
+  color: var(--color-off-white);
+}
+
+h1{
+  font-size: 72px;
+}
+
+
