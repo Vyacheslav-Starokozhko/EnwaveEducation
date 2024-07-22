@@ -1,0 +1,31 @@
+.scrollWrapper{
+  position: relative;
+  max-height: 100vh;
+  height: 100vh;
+}
+
+.arrowUp,.arrowDown{
+  //z-index: 1000;
+  position: absolute;
+  margin: 0 20px 20px 20px;
+  background-color: transparent;
+  width: 100px;
+  height: 100px;
+  border:2px solid var(--color-off-white);
+  border-radius: 50%;
+  right: 0;
+  svg{
+    path{
+      fill: var(--color-off-white);
+    }
+  }
+}
+.arrowUp{
+  top: 20px;
+}
+.arrowDown{
+bottom: 20px;
+}
+
+
+

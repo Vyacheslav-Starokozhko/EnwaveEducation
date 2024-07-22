@@ -40,6 +40,7 @@ html,body{
 
 
 body{
+  overflow:hidden;
   transition: 0.5s;
   font-family: var(--font-poppins);
   font-size: 16px;
@@ -51,3 +52,12 @@ h1{
 }
 
 
+main{
+  max-height: 100vh;
+  height: 100vh;
+}
+#scrollView{
+  max-height: 100vh;
+  height: 100vh;
+  overflow:hidden;
+}

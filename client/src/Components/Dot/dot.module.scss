@@ -1,0 +1,27 @@
+.scrollDot{
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #0A1F44;
+  border-radius: 50%;
+  transition: 0.5s linear;
+  &:before{
+    background-color: #0A1F44;
+    content: '';
+    position: absolute;
+    transition: 0.5s linear;
+
+    height: 20px;
+    width: 4px;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+.currentDot{
+  background-color: lightgrey;
+  &:before{
+    background-color: lightgrey;
+  }
+}

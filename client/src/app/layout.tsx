@@ -22,7 +22,9 @@ export default function RootLayout({
   return (
       <html className={`${poppins.variable}`}>
         <StoreProvider>
-          <body>{children}</body>
+          <body>
+          {children}
+          </body>
         </StoreProvider>
       </html>
   );

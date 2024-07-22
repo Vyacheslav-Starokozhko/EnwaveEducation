@@ -16,16 +16,4 @@
 .arrowDown{
 
 }
-.arrowUp,.arrowDown{
-  margin: 20px 20px 20px auto;
-  background-color: transparent;
-  width: 75px;
-  height: 75px;
-  border:2px solid var(--color-off-white);
-  border-radius: 50%;
-  svg{
-    path{
-      fill: var(--color-off-white);
-    }
-  }
-}
+
